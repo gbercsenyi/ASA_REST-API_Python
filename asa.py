@@ -1,10 +1,10 @@
 import requests
 import json
-from getpass import getpass
+# from getpass import getpass
 import base64
 from datetime import datetime
 from urllib3 import disable_warnings
-from config import asa5506 as myasa
+from config import myasa
 # https://stackoverflow.com/questions/27981545/suppress-insecurerequestwarning-unverified-https-request-is-being-made-in-pytho
 disable_warnings()
 
